@@ -129,7 +129,7 @@
     background-color: rgba(42, 51, 51, 0.397);
 } */
 .burgers {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/burgers.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/burgers.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height:334px ;
@@ -158,12 +158,12 @@
 }
 
 .about_sec3 {
-    /* background-image: url(/assets/plate.jpg); */
+    /* background-image: url(./assets/plate.jpg); */
     /* opacity: .6;
     height: 200px;
     color: black;
     position: relative; */
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/about-sec3.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/about-sec3.jpg");
     background-size: cover !important;
     background-attachment: fixed;
     /* position: absolute; */
@@ -314,7 +314,7 @@ footer,
     }
 
     .woodenchair {
-        background-image: url("/assets/wooden.jpg");
+        background-image: url("./assets/wooden.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
